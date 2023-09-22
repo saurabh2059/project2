@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+$brand:#0a379b;
+body{
+    font-family: 'Montserrat', sans-serif;;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+*{
+   a{
+    text-decoration: none;
+   }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+button.navbar-toggler.bg-white.rounded-0.collapsed {
+    border-radius:10% !important ;
+}
+.ram{
+    font-size:20px ;
+    line-height: 34px;
+    font-weight: 500;
+    color: $brand;
+    border: 2px solid $brand !important;
+}
+//header starts
+header{
+.logo{
+
+width: 50%;
+// width: 350px;
+}
+.flag{
+width: 15%;
+// width: 70px;
+}
+}
+//header ends
+
+
+
+//navgation starts
+.navigation{
+.bg-body-tertiary{
+    background-color: $brand !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 14px;
+    
+}
+.left{
+    margin-left: 5%;
+}
+// .navbar-toggler-icon{
+//     color: white !important;
+// }
+
+
+// slider banner
+.banner{
+    img{
+        height: 600px;
+        object-fit: cover;
+    }
+}
+}
+//navigation ends
+
+
+
+// description starts
+.description{
+
+.wlc{
+    font-size: 36px;
+    line-height: 36px ;
+}
+.npl{
+    margin-top: 50px !important;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: justify;
+}
+h2{
+    position: relative;
+    &::after{
+        position: absolute;
+        content: '';
+        margin-top: 20px;
+        border-radius: 5px;
+        width: 28%;
+        height: 4px;
+        background-color:$brand;
+        top: 100%;
+        left: 0%;
+    }
+}
+.photo{
+    position: relative;
+    .photo-text{
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-top: 10px;
+        font-size: 21px;
+        transform: translateX(-50%);
+    }   
+}
+}
+//description ends
+
+
+
+//emojis starts
+.emojis{
+
+    margin-top: 70px;
+    color: #ffff;
+   .color{
+    background-color: $brand;
+   } 
+   .size{
+    font-size: 70px;
+   }
+   p{
+    width: 80%;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 27px;
+   }
+   
+}
+//emojjis ends
+
+
+
+//heading starts
+.heading{
+    position: relative;
+    h2{
+        position: absolute;
+        left: 50%;
+        text-align: center;
+        transform: translateX(-50%);
+
+        &::after{
+         position: absolute;
+        content: '';
+        margin-top: 20px;
+        border-radius: 5px;
+        width: 80%;
+        height: 4px;
+        background-color:$brand;
+        top: 100%;
+        left: 10%;
+    }
+    }
+    margin-bottom: 150px;
+}
+// heading ends
+
+//help starts
+.help{
+    // margin-top: 150px;
+  
+    .color{
+       
+        background-color: #e7efe9;
+        
+       
+        
+    }
+    .g{
+    
+        justify-content: space-around;
+    }
+
+    i{
+        margin-top: 5%;
+        display: flex;
+        font-size: 70px;
+        justify-content: center;
+        color: $brand;
+    }
+    h5{
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+    }
+    p{
+        color:rgba(0,0,0,0.5);
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+    }
+    .mx{
+        
+        border: 2px solid $brand !important;
+        
+        
+        color: $brand !important;
+       
+      margin-left: 50%;
+      transform: translateX(-50%);
+      margin-bottom:7%;
+      margin-top: 5%;
+
+    }
+    
+}
+//help ends
+
+
+//children-photo starts
+.children-photo
+{
+    .img{
+
+    
+        background:linear-gradient(to right,rgb(255, 255, 255),rgba(255, 255, 255, 0)),url(../Nepal.jpeg);
+        
+       background-repeat: no-repeat;
+       background-size:cover;
+       background-attachment: fixed;
+
+}
+    color: $brand;
+    h1{
+        font-size: 43px;
+        line-height: 43px;
+    }
+    button{
+        font-size:20px ;
+        line-height: 34px;
+        font-weight: 500;
+        color: $brand;
+        border: 2px solid $brand !important;
+    }
+    
+   
+        
+    
+    
+    .gapping{
+        padding-top:10%;
+        padding-left: 5%;
+       }
+}
+//children-photo ends
+
+
+// heading 2 starts
+.heading2{
+
+    position: relative;
+    h2{
+        position: absolute;
+        left: 50%;
+        text-align: center;
+        transform: translateX(-50%);
+
+        &::after{
+         position: absolute;
+        content: '';
+        margin-top: 20px;
+        border-radius: 5px;
+        width: 20%;
+        height: 4px;
+        background-color:$brand;
+        top: 100%;
+        left: 40%;
+    }
+    }
+
+    margin-bottom: 150px;
+}
+// heading 2 ends
+
+
+//networks starts
+.networks{
+    .phot{
+        width: 95%;
+    }
+   
+    
+    h2{
+        position: relative;
+        &::after{
+            position: absolute;
+            content: '';
+            margin-top: 20px;
+            border-radius: 5px;
+            width: 28%;
+            height: 4px;
+            background-color:$brand;
+            top: 100%;
+            left: 0%;
+        }
+    }
+    .photo{
+        position: relative;
+        .photo-text{
+           
+            margin-top: 10px;
+            font-size: 21px;
+        
+        }   
+    }
+    .color{
+        color: $brand;
+    }
+    }
+    //network ends
+
+
+ //partner starts
+ .partners{
+    img{
+        width: 10%;
+        height: 50vh;
+    }
+    }
+//partner ends
+.slider2{
+    
+    .parent{
+       
+        
+       img{
+       
+        border-radius: 10px;
+       }
+      
+    }
+}
+
+.line{
+    border-bottom: $brand 3px dotted;
+    margin-bottom: 10px;
+}
+//footer top starts
+.footer-top{
+    // margin-top: 300px;
+    js{
+        justify-content: space-around;
+    }
+    .photo{
+        width: 90%;
+        // height: 15vh;
+    }
+.c{
+    margin-left: 10%;
+}
+  .a  i{
+        font-size: 20px;
+        color: $brand;
+        margin-right: 2%;
+    }
+.b i{
+    font-size: 30px;
+    padding-right: 10%;
+}
+    .width{
+        width: 90%;
+        height: 40vh;
+        margin-left: 5%;
+    }
+}
+//footer top ends
+
+
+
+//footer starts
+footer{
+  
+        background-color: $brand;
+        color: white;
+        
+        .js{
+            justify-content: space-around;
+        }
+
+}
+//footer ends

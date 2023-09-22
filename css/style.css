@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+* a {
+  text-decoration: none;
+}
+
+button.navbar-toggler.bg-white.rounded-0.collapsed {
+  border-radius: 10% !important;
+}
+
+.ram {
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 500;
+  color: #0a379b;
+  border: 2px solid #0a379b !important;
+}
+
+header .logo {
+  width: 50%;
+}
+header .flag {
+  width: 15%;
+}
+
+.navigation .bg-body-tertiary {
+  background-color: #0a379b !important;
+}
+.navigation .navbar-expand-lg .navbar-nav .nav-link {
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 14px;
+}
+.navigation .left {
+  margin-left: 5%;
+}
+.navigation .banner img {
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.description .wlc {
+  font-size: 36px;
+  line-height: 36px;
+}
+.description .npl {
+  margin-top: 50px !important;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: justify;
+}
+.description h2 {
+  position: relative;
+}
+.description h2::after {
+  position: absolute;
+  content: "";
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 28%;
+  height: 4px;
+  background-color: #0a379b;
+  top: 100%;
+  left: 0%;
+}
+.description .photo {
+  position: relative;
+}
+.description .photo .photo-text {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-top: 10px;
+  font-size: 21px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.emojis {
+  margin-top: 70px;
+  color: white;
+}
+.emojis .color {
+  background-color: #0a379b;
+}
+.emojis .size {
+  font-size: 70px;
+}
+.emojis p {
+  width: 80%;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 27px;
+}
+
+.heading {
+  position: relative;
+  margin-bottom: 150px;
+}
+.heading h2 {
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.heading h2::after {
+  position: absolute;
+  content: "";
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 80%;
+  height: 4px;
+  background-color: #0a379b;
+  top: 100%;
+  left: 10%;
+}
+
+.help .color {
+  background-color: #e7efe9;
+}
+.help .g {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.help i {
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 70px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #0a379b;
+}
+.help h5 {
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.help p {
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: justify;
+}
+.help .mx {
+  border: 2px solid #0a379b !important;
+  color: #0a379b !important;
+  margin-left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin-bottom: 7%;
+  margin-top: 5%;
+}
+
+.children-photo {
+  color: #0a379b;
+}
+.children-photo .img {
+  background: -webkit-gradient(linear, left top, right top, from(rgb(255, 255, 255)), to(rgba(255, 255, 255, 0))), url(../Nepal.jpeg);
+  background: linear-gradient(to right, rgb(255, 255, 255), rgba(255, 255, 255, 0)), url(../Nepal.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.children-photo h1 {
+  font-size: 43px;
+  line-height: 43px;
+}
+.children-photo button {
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 500;
+  color: #0a379b;
+  border: 2px solid #0a379b !important;
+}
+.children-photo .gapping {
+  padding-top: 10%;
+  padding-left: 5%;
+}
+
+.heading2 {
+  position: relative;
+  margin-bottom: 150px;
+}
+.heading2 h2 {
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.heading2 h2::after {
+  position: absolute;
+  content: "";
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 20%;
+  height: 4px;
+  background-color: #0a379b;
+  top: 100%;
+  left: 40%;
+}
+
+.networks .phot {
+  width: 95%;
+}
+.networks h2 {
+  position: relative;
+}
+.networks h2::after {
+  position: absolute;
+  content: "";
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 28%;
+  height: 4px;
+  background-color: #0a379b;
+  top: 100%;
+  left: 0%;
+}
+.networks .photo {
+  position: relative;
+}
+.networks .photo .photo-text {
+  margin-top: 10px;
+  font-size: 21px;
+}
+.networks .color {
+  color: #0a379b;
+}
+
+.partners img {
+  width: 10%;
+  height: 50vh;
+}
+
+.slider2 .parent img {
+  border-radius: 10px;
+}
+
+.line {
+  border-bottom: #0a379b 3px dotted;
+  margin-bottom: 10px;
+}
+
+.footer-top js {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.footer-top .photo {
+  width: 90%;
+}
+.footer-top .c {
+  margin-left: 10%;
+}
+.footer-top .a i {
+  font-size: 20px;
+  color: #0a379b;
+  margin-right: 2%;
+}
+.footer-top .b i {
+  font-size: 30px;
+  padding-right: 10%;
+}
+.footer-top .width {
+  width: 90%;
+  height: 40vh;
+  margin-left: 5%;
+}
+
+footer {
+  background-color: #0a379b;
+  color: white;
+}
+footer .js {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}/*# sourceMappingURL=style.css.map */
